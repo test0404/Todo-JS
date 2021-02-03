@@ -1,0 +1,39 @@
+.check {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("./images/icon-check.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aqua;
+}
+
+.cross {
+    width: 30px;
+    height: 30px;
+    background-image: url("./images/icon-cross.svg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-control {
+    width : 80%;
+    border : none;
+}
+
+.div-filtre{
+    padding : 0.7rem;
+}
+
+.div-crea{
+    padding : 0.5rem 1rem;
+}
+
+.div-titre{
+    background-color: aquamarine;
+}
+
+.icon-sun{
+    width: 25px;
+    height: 25px;
+}
