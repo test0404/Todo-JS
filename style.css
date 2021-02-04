@@ -5,7 +5,9 @@
     background-image: url("./images/icon-check.svg") ;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: aqua;
+    
+
+    border : 1px solid #3f4b3b;
 }
 
 .cross {
@@ -23,17 +25,83 @@
 
 .div-filtre{
     padding : 0.7rem;
+    background-color:#5a9367;
+    color : #3f4b3b; 
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .div-crea{
     padding : 0.5rem 1rem;
+    background-color:#5a9367;
+    border-radius: 5px;
 }
 
 .div-titre{
-    background-color: aquamarine;
+    font-weight: bold;
+    text-shadow:4px 3px 3px #3f4b3b;
 }
 
 .icon-sun{
     width: 25px;
     height: 25px;
+}
+
+/* Very Dark Blue: hsl(235, 21%, 11%)
+Very Dark Desaturated Blue: hsl(235, 24%, 19%)
+Light Grayish Blue: hsl(234, 39%, 85%)
+Light Grayish Blue (hover): hsl(236, 33%, 92%)
+Dark Grayish Blue: hsl(234, 11%, 52%)
+Very Dark Grayish Blue: hsl(233, 14%, 35%)
+Very Dark Grayish Blue: hsl(237, 14%, 26%) */
+
+body {
+    background-color: #44633f;
+    color : white;
+    height : 100vh;
+    /* background-image: url("./images/bg-mobile-dark.jpg") ; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-control[type="text"] {
+    background-color: #5a9367;
+    
+}
+
+
+.form-control::placeholder { 
+    color: #3f4b3b;
+  }
+
+.list-group-item {
+    background-color:#5a9367;
+}
+
+.li-clear {
+    color : #3f4b3b; 
+}
+
+.drag {
+    color :#3f4b3b;  
+}
+
+.attribution {
+    color : #3f4b3b; 
+}
+
+ul {
+    border-radius: 5px;
+}
+
+.active {
+    color : hsl(233, 66%, 55%);
 }
