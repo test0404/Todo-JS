@@ -2,9 +2,10 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-image: url("./images/icon-check.svg") ;
+    background-image: url("../images/icon-check.svg") ;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0);;
     
 
     border : 1px solid #3f4b3b;
@@ -13,9 +14,12 @@
 .cross {
     width: 30px;
     height: 30px;
-    background-image: url("./images/icon-cross.svg") ;
+    background-image: url("../images/icon-cross.svg") ;
     background-repeat: no-repeat;
     background-position: center;
+
+    border : none ;
+    background-color: rgba(0, 0, 0, 0);;
 }
 
 .form-control {
