@@ -40,13 +40,13 @@
     <div>
       <ul class="list-group">
         <li class="list-group-item d-flex flex-row" > 
-          <button class="check me-2 mt-1"></button>
+          <button class="check no-check  me-2 mt-1"></button>
           <p class="flex-grow-1 m-2">Liste des todos</p>
           <button class="cross mt-1"></button>
         </li>
 
         <li class="list-group-item d-flex flex-row">
-          <button class="check me-2 mt-1"></button>
+          <button class="check no-check me-2 mt-1"></button>
           <p class="flex-grow-1 m-2">Liste des todos</p>
           <button class="cross mt-1"></button>
         </li>
@@ -59,9 +59,9 @@
     </div>
 
     <div class="div-filtre d-flex flex-row justify-content-center mt-3 align-items-center">
-      <p class="active me-3 mb-0">All</p>
-      <p class="me-3 mb-0">Active </p>
-      <p class="me-3 mb-0">Completed</p>
+      <a href="" class="tri-all active me-3 mb-0">All</a>
+      <a href="" class="tri-act me-3 mb-0">Active </a>
+      <a href="" class="tri-comp me-3 mb-0">Completed</a>
     </div>
     
 
@@ -79,6 +79,8 @@
   <script src="./app/ajout-todo.js"></script>
   <script src="./app/cross.js"></script>
   <script src="./app/check.js"></script>
+  <script src="./app/tri.js"></script>
   <!-- <script src="./app/drag.js"></script> -->
+  <!-- No puedo utilizar la bdd with JS i'ts nul ?????-->
 </body>
 </html>

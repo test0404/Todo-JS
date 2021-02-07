@@ -116,3 +116,13 @@ ul {
 .active {
     color : hsl(233, 66%, 55%);
 }
+
+a {
+    color : #3f4b3b;
+    text-decoration: none;
+}
+
+a:hover {
+    color : hsl(233, 66%, 55%);
+}
+

@@ -15,6 +15,6 @@ function handleCross(evt) {
         //Tu supprime le li parent !
         nodeLi.remove();
     }
-    
-    
+
 }
+

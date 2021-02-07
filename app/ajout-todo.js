@@ -25,7 +25,7 @@ function handleTodo(evt) {
     //Est - il possible de créer tout d'un seul coup ?? le li puis les div et p à l'intérieur avec les classes qu'il faut
 
     let nodeBut = document.createElement("button");
-    nodeBut.classList.add("check","me-2", "mt-1");
+    nodeBut.classList.add("check","no-check","me-2", "mt-1");
     nodeLi.append(nodeBut);
     //Je créer la div check et je la met dans la li
 
@@ -48,4 +48,21 @@ function handleTodo(evt) {
     nodeForm.reset();
     //Je reset le form pour enlever le texte dans l'input
 
+
 }
+
+
+
+
+
+let nbCheck;
+nbCheck=document.querySelectorAll('.check-validate').length;
+//console.log("check:" + nbCheck);
+
+let nbNoCheck;
+nbNoCheck=document.querySelectorAll('.no-check ').length;
+//console.log("no:" + nbNoCheck);
+
+
+// Debut comptage des check ou non check mais compliqué pour l'actualiser en temps réel
+//Il faudrait compter : au chargement, lorsqu'on ajoute un todo, lorsqu'on supprime un todo et lorsqu'on ajoute un todo...

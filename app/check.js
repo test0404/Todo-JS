@@ -14,12 +14,16 @@ function handleCheck(evt) {
         //Tu mets sur ce bouttons la classe si elle n'y est pas sinon tu l'enlève
         //Permet d'ajouter le signe validé ou de l'enlevé si on change d'avis
         nodeTarget.classList.toggle("check-validate");
+        //tu enlève si elle existe sinon tu met (permet de compter nb check non validé)
+        nodeTarget.classList.toggle("no-check");
         //Tu stock le voison (le p contenant le todo)
         let nodePSibling = nodeTarget.nextElementSibling;
         //Tu lui ajouter la classe si elle n'y est pas sinon tu l'enlève
         nodePSibling.classList.toggle("p-validate");
-        
+
+
     }
-    
+
     
 }
+
